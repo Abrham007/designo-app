@@ -12,7 +12,7 @@ const config: Config = {
       Black: "#1D1C1E",
       White: "#FFF",
       LightPeach: "#FFAD9B",
-      DarkGray: "#333136",
+      DarkGrey: "#333136",
       LightGrey: "#DFDFDF",
     },
     fontSize: {
@@ -49,7 +49,12 @@ const config: Config = {
         },
       ],
     },
-    extend: {},
+    extend: {
+      backgroundImage: {
+        smallCircles:
+          "url('/images/shared/desktop/bg-pattern-small-circle.svg')",
+      },
+    },
   },
   plugins: [],
 };
