@@ -9,7 +9,7 @@ import InstagramIcon from "../UI/icons/InstagramIcon";
 export default function Footer() {
   return (
     <footer className="bg-Black">
-      <div className="w-full lg:max-w-[1111px] lg:mx-auto px-6 md:px-10 py-[64px] md:py-20 lg:py-[72px] flex flex-col justify-center  gap-10 ">
+      <div className="w-full lg:max-w-[1111px] lg:mx-auto px-6 md:px-10 lg:px-0 py-[64px] md:py-20 lg:py-[72px] flex flex-col justify-center  gap-10 ">
         <div className="flex flex-col md:flex-row gap-8 md:justify-between md:items-center">
           <Image
             src={logoLightIcon}
