@@ -53,6 +53,7 @@ const config: Config = {
       backgroundImage: {
         smallCircles:
           "url('/images/shared/desktop/bg-pattern-small-circle.svg')",
+        leafPattern: "url('/images/shared/desktop/bg-pattern-leaf.svg')",
       },
     },
   },
