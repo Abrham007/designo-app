@@ -10,9 +10,9 @@ export default function CharacterItem({
   description: string;
 }) {
   return (
-    <li className="flex flex-col gap-12 items-center">
+    <li className="flex flex-col md:flex-row lg:flex-col gap-12 items-center">
       <Image src={imgSrc} alt=""></Image>
-      <div className="flex flex-col gap-8 items-center">
+      <div className="flex flex-col gap-8 md:gap-4 text-center md:text-start lg:text-center">
         <h2 className="text-lg text-Black">{title}</h2>
         <p className="text-base text-Black">{description}</p>
       </div>
