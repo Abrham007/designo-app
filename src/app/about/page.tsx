@@ -1,5 +1,6 @@
 import AboutHeader from "@/components/AboutPage/AboutHeader";
 import AboutInfoItem from "@/components/AboutPage/AboutInfoItem";
+import LocationList from "@/components/LocationList/LocationList";
 import MainFooter from "@/components/MainFooter/MainFooter";
 
 export default function About() {
@@ -16,6 +17,8 @@ export default function About() {
             mobile: "/images/about/mobile/image-world-class-talent.jpg",
           }}
         ></AboutInfoItem>
+
+        <LocationList></LocationList>
 
         <AboutInfoItem
           title="The real deal"
