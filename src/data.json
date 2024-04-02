@@ -1,9 +1,9 @@
-{
-  "web": {
+[
+  {
     "title": "Web Design",
     "description": "We build websites that serve as powerful marketing tools and bring memorable brand experiences.",
     "slug": "web",
-    "products": [
+    "projects": [
       {
         "title": "express",
         "descritption": "A multi-carrier shipping website for ecommerce businesses",
@@ -36,11 +36,11 @@
       }
     ]
   },
-  "app": {
+  {
     "title": "App Design",
     "description": "Our mobile designs bring intuitive digital solutions to your customers right at their fingertips.",
     "slug": "app",
-    "products": [
+    "projects": [
       {
         "title": "airfilter",
         "descritption": "Solving the problem of poor indoor air quality by filtering the air",
@@ -68,11 +68,11 @@
       }
     ]
   },
-  "graphic": {
+  {
     "title": "Graphic Design",
     "description": "We deliver eye-catching branding materials that are tailored to meet your business objectives.",
     "slug": "graphic",
-    "products": [
+    "projects": [
       {
         "title": "tim brown",
         "descritption": "A book cover designed for Tim Brown’s new release, ‘Change’",
@@ -90,4 +90,4 @@
       }
     ]
   }
-}
+]
