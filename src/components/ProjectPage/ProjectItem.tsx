@@ -7,7 +7,7 @@ export default function ProjectItem({
   image,
 }: ProjectItemData) {
   return (
-    <li className="group w-[327px] h-[478px] md:w-[689px] md:h-[310px] lg:w-[350px] lg:h-[478px] mx-auto flex flex-col md:flex-row lg:flex-col rounded-[15px] bg-[#FDF3F0] hover:bg-Peach">
+    <li className="group cursor-pointer w-[327px] h-[478px] md:w-[689px] md:h-[310px] lg:w-[350px] lg:h-[478px] mx-auto flex flex-col md:flex-row lg:flex-col rounded-[15px] bg-[#FDF3F0] hover:bg-Peach">
       <Image
         src={image}
         alt={title}
