@@ -48,6 +48,14 @@ const config: Config = {
           fontWeight: "400",
         },
       ],
+      sm: [
+        "0.9375rem",
+        {
+          lineHeight: "1.5625rem",
+          letterSpacing: "normal",
+          fontWeight: "400",
+        },
+      ],
     },
     extend: {
       backgroundImage: {
