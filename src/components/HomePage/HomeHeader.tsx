@@ -13,10 +13,10 @@ export default function HomeHeader() {
 
       <div className="md:w-[550px] z-10 flex flex-col gap-6 md:gap-5 items-center lg:items-start">
         <div className=" flex flex-col gap-[14px] md:gap-6 items-center text-center lg:text-start">
-          <h1 className="text-[1.75rem] text-White leading-[2.25rem] font-medium md:text-xl2 ">
+          <h1 className="text-[2rem] text-White leading-[2.25rem] font-medium md:text-xl2">
             Award-winning custom designs and digital branding solutions
           </h1>
-          <p className="text-[0.9375rem] text-White leading-[1.5625rem] text-base">
+          <p className="text-sm text-White  md:text-base">
             With over 10 years in the industry, we are experienced in creating
             fully responsive websites, app design, and engaging brand
             experiences. Find out more about our services.
