@@ -1,6 +1,5 @@
 import MainFooter from "@/components/MainFooter/MainFooter";
 import Image from "next/image";
-import heroPhone from "../../public/images/home/desktop/image-hero-phone.png";
 import leafPattern from "../../public/images/shared/desktop/bg-pattern-leaf.svg";
 import CharacterList from "@/components/HomePage/CharacterList";
 import HomeLinks from "@/components/HomePage/HomeLinks";
@@ -8,7 +7,7 @@ import HomeHeader from "@/components/HomePage/HomeHeader";
 
 export default function Home() {
   return (
-    <main className="relative w-full lg:max-w-[1111px] lg:mx-auto">
+    <main className="relative">
       <Image
         src={leafPattern}
         alt=""
