@@ -63,6 +63,7 @@ const config: Config = {
           "url('/images/shared/desktop/bg-pattern-small-circle.svg')",
         threeCirles:
           "url('/images/shared/desktop/bg-pattern-three-circles.svg')",
+        twoCirles: "url('/images/shared/desktop/bg-pattern-two-circles.svg')",
         leafPattern: "url('/images/shared/desktop/bg-pattern-leaf.svg')",
       },
     },
