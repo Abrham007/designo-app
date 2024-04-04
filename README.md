@@ -38,7 +38,7 @@ Designo is a multi page website that is for a company that offers services like 
 ### Links
 
 - Project Repo URL: [https://github.com/Abrham007/designo-app.git](https://github.com/Abrham007/designo-app.git)
-- Live Site URL: [ https://audiophile-ecommerce-app-8e126b90fbd6.herokuapp.com/](https://audiophile-ecommerce-app-8e126b90fbd6.herokuapp.com/)
+- Live Site URL: [ https://designo-app-74695588ecd6.herokuapp.com/](https://designo-app-74695588ecd6.herokuapp.com/)
 
 ### Author
 
