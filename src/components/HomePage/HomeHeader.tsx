@@ -1,4 +1,5 @@
 import Button from "@/components/UI/Buttons/Button";
+import Link from "next/link";
 export default function HomeHeader() {
   return (
     <header className="overflow-hidden relative w-full h-[843px] md:w-[689px] lg:w-[1111px] lg:h-[640px] md:mx-auto md:rounded-[15px] flex items-start lg:items-center justify-center lg:justify-start px-6 lg:px-[95px] pt-20 mb-[120px] bg-Peach ">
@@ -22,8 +23,12 @@ export default function HomeHeader() {
             experiences. Find out more about our services.
           </p>
         </div>
-
-        <Button $type="1">Learn More</Button>
+        <Link
+          href="/about"
+          className="px-6 py-4 text-[0.9375rem] tracking-[0.0625rem] uppercase font-medium text-DarkGrey hover:text-White  bg-White hover:bg-LightPeach rounded-lg"
+        >
+          Learn More
+        </Link>
       </div>
     </header>
   );
