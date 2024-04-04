@@ -6,6 +6,7 @@ export default function Location() {
     <main>
       <ul className="w-full lg:max-w-[1111px] lg:mx-auto  mb-[120px] lg:mb-[160px] flex flex-col gap-10 md:gap-[120px] lg:gap-[32px]">
         <LocationElement
+          id="canada"
           name="Canada"
           office={{
             name: "Central Office",
@@ -20,6 +21,7 @@ export default function Location() {
           }}
         ></LocationElement>
         <LocationElement
+          id="australia"
           name="Australia"
           office={{
             name: "AU Office",
@@ -34,6 +36,7 @@ export default function Location() {
           }}
         ></LocationElement>
         <LocationElement
+          id="united-kingdom"
           name="United Kingdom"
           office={{
             name: "UK Office",
@@ -43,8 +46,8 @@ export default function Location() {
           }}
           contact={{ phone: "078 3115 1400", email: "contact@designo.uk" }}
           images={{
-            desktop: "/images/locations/desktop/image-map-united-kingdom.png",
-            tablet: "/images/locations/tablet/image-map-united-kingdom.png",
+            desktop: "/images/locations/desktop/image-map-uk.png",
+            tablet: "/images/locations/tablet/image-map-uk.png",
           }}
         ></LocationElement>
       </ul>

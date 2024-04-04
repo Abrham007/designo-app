@@ -1,11 +1,13 @@
 import { getImageProps } from "next/image";
 
 export default function LocationElement({
+  id,
   name,
   office,
   contact,
   images,
 }: {
+  id: string;
   name: string;
   office: { name: string; street: string; city: string; postCode: string };
   contact: { phone: string; email: string };
@@ -29,7 +31,10 @@ export default function LocationElement({
     src: images.tablet,
   });
   return (
-    <li className="flex flex-col lg:flex-row-reverse lg:even:flex-row gap-0 md:gap-[31px] ">
+    <li
+      id={id}
+      className="flex flex-col lg:flex-row-reverse lg:even:flex-row gap-0 md:gap-[31px] "
+    >
       <picture>
         <source media="(min-width: 1020px)" srcSet={desktop} />
         <source media="(min-width: 768px)" srcSet={tablet} />

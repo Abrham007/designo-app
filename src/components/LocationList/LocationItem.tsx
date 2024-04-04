@@ -1,11 +1,14 @@
 import Image from "next/image";
 import Button from "../UI/Buttons/Button";
+import Link from "next/link";
 
 export default function LocationItem({
+  id,
   country,
   className,
   image,
 }: {
+  id: string;
   country: string;
   className: string;
   image: string;
@@ -20,7 +23,12 @@ export default function LocationItem({
 
       <div className="flex flex-col gap-8 items-center">
         <h3 className="text-lg text-Black uppercase">{country}</h3>
-        <Button $type="2">SEE LOCATION</Button>
+        <Link
+          href={`/location#${id}`}
+          className="px-6 py-4 text-[0.9375rem] tracking-[0.0625rem] uppercase font-medium text-White hover:text-White bg-Peach hover:bg-LightPeach rounded-lg"
+        >
+          SEE LOCATION
+        </Link>
       </div>
     </li>
   );
