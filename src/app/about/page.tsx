@@ -28,6 +28,7 @@ export default function About() {
             tablet: "/images/about/tablet/image-real-deal.jpg",
             mobile: "/images/about/mobile/image-real-deal.jpg",
           }}
+          reverse={true}
         ></AboutInfoItem>
       </section>
       <MainFooter></MainFooter>
