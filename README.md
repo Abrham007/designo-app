@@ -1,36 +1,51 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Designo Web App
 
-## Getting Started
+## Table of contents
 
-First, run the development server:
+- [Overview](#overview)
+  - [Built with](#built-with)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+  - [Author](#author)
+  - [Skills](#skills)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Overview
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### About Project
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Designo is a multi page website that is for a company that offers services like WebDesign, AppDesign and GraphicDesign. This site has a home page that gives general information of the company a location page that has detaild information of the various location of the company. An about and contact page for contacting and deltailed infomation of the company and finally a services page that showcases there previous projects.It has responsive design for desktop, tablet and mobile screens. I used React, Next and Typescript with Tailwind for styles and mobile first workflow for the front-end. It is fully online on a Heroku server.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Built with
 
-## Learn More
+- Semantic HTML5 markup
+- CSS
+- Flexbox
+- CSS Grid
+- Mobile-first workflow
+- Vite
+- [React](https://reactjs.org/) - Frontend framework
+- [TailwindCSS](https://tailwindcss.com//) - For styles
+- [Next](https://nextjs.org) - Frontend framework
 
-To learn more about Next.js, take a look at the following resources:
+### Screenshot
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+![Desktop-Home](./screenshots/screenshot-1.png)
+![Desktop-Web](./screenshots/screenshot-2.png)
+![Desktop-About](./screenshots/screenshot-3.png)
+![Desktop-Locations](./screenshots/screenshot-4.png)
+![Desktop-Contact](./screenshots/screenshot-5.png)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### Links
 
-## Deploy on Vercel
+- Project Repo URL: [https://github.com/Abrham007/designo-app.git](https://github.com/Abrham007/designo-app.git)
+- Live Site URL: [ https://audiophile-ecommerce-app-8e126b90fbd6.herokuapp.com/](https://audiophile-ecommerce-app-8e126b90fbd6.herokuapp.com/)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Author
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Website - [Abrham Araya](https://www.abrhamaraya.com)
+- Github - [Abrham007](https://github.com/Abrham007)
+- Stackover-flow - [Abrham Araya](https://stackoverflow.com/users/22762463/abrham-araya)
+
+### Skills
+
+![Skills](./screenshots/skills.png)
