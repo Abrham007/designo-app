@@ -15,7 +15,7 @@ export default function MainFooter() {
           </p>
         </div>
         <Link
-          href="/about"
+          href="/contact"
           className="px-6 py-4 text-[0.9375rem] tracking-[0.0625rem] uppercase font-medium text-DarkGrey hover:text-White  bg-White hover:bg-LightPeach rounded-lg"
         >
           Get in touch

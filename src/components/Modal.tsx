@@ -21,7 +21,7 @@ export default function Modal({
     } else {
       dialog.current?.close();
     }
-  }, []);
+  }, [isOpen]);
 
   function handelClose() {
     setIsOpen(false);
