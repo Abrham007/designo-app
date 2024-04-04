@@ -4,9 +4,10 @@ import Input from "@/components/UI/Inputs/Input";
 import { Formik } from "formik";
 
 export default function ContactForm() {
-  function handleSubmit(values: any, { setSubmitting }: any) {
+  function handleSubmit(values: any, { setSubmitting, resetForm }: any) {
     console.log(values);
     setSubmitting(false);
+    resetForm();
   }
   return (
     <Formik
