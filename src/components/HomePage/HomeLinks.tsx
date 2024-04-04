@@ -7,7 +7,7 @@ export default function HomeLinks() {
       <ul className="flex flex-col gap-6 items-center lg:grid lg:grid-cols-2 lg:grid-rows-2 lg:gap-x-[30px] lg:gap-y-6">
         <li className="lg:row-start-1 lg:row-end-3">
           <Link
-            href="/"
+            href="/project/web"
             title="web design"
             imgSrc={imgSrcObject.web}
             large={true}
@@ -15,11 +15,15 @@ export default function HomeLinks() {
           ></Link>
         </li>
         <li>
-          <Link href="/" title="app design" imgSrc={imgSrcObject.app}></Link>
+          <Link
+            href="/project/app"
+            title="app design"
+            imgSrc={imgSrcObject.app}
+          ></Link>
         </li>
         <li>
           <Link
-            href="/"
+            href="/project/graphic"
             title="graphic design"
             imgSrc={imgSrcObject.graphic}
           ></Link>
