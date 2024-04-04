@@ -6,6 +6,7 @@ import hambergerIcon from "../../../public/images/shared/mobile/icon-hamburger.s
 import closeIcon from "../../../public/images/shared/mobile/icon-close.svg";
 import Modal from "../Modal";
 import { useState } from "react";
+import Link from "next/link";
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -23,7 +24,7 @@ export default function Header() {
       <Modal
         isOpen={true}
         setIsOpen={setIsOpen}
-        className="backdrop:absolute backdrop:top-[96px]"
+        className="fixed backdrop:absolute backdrop:top-[96px] backdrop:bottom-0"
       >
         <header className="fixed top-0 left-0 right-0 bg-White">
           <div className="flex justify-between px-6 py-8">
@@ -39,13 +40,19 @@ export default function Header() {
           <nav>
             <ul className="flex flex-col gap-8 px-6 py-12 bg-Black">
               <li className="text-[1.5rem] text-White leading-[1.5625rem] tracking-[0.125rem] uppercase">
-                OUR COMPANY
+                <Link href="/about" onClick={() => setIsOpen(false)}>
+                  OUR COMPANY
+                </Link>
               </li>
               <li className="text-[1.5rem] text-White leading-[1.5625rem] tracking-[0.125rem] uppercase">
-                LOCATIONS
+                <Link href="/location" onClick={() => setIsOpen(false)}>
+                  LOCATIONS
+                </Link>
               </li>
               <li className="text-[1.5rem] text-White leading-[1.5625rem] tracking-[0.125rem] uppercase">
-                CONTACT
+                <Link href="/contact" onClick={() => setIsOpen(false)}>
+                  CONTACT
+                </Link>
               </li>
             </ul>
           </nav>
@@ -59,13 +66,13 @@ export default function Header() {
       <nav className="hidden md:inline-block">
         <ul className="flex gap-[42px]">
           <li className="text-[0.875rem] text-DarkGray leading-1 tracking-[0.125rem] uppercase hover:underline">
-            OUR COMPANY
+            <Link href="/about">OUR COMPANY</Link>
           </li>
           <li className="text-[0.875rem] text-DarkGray leading-1 tracking-[0.125rem] uppercase hover:underline">
-            LOCATIONS
+            <Link href="/location">LOCATIONS</Link>
           </li>
           <li className="text-[0.875rem] text-DarkGray leading-1 tracking-[0.125rem] uppercase hover:underline">
-            CONTACT
+            <Link href="/contact">CONTACT</Link>
           </li>
         </ul>
       </nav>

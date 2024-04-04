@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Button from "../UI/Buttons/Button";
 
 export default function MainFooter() {
@@ -13,8 +14,12 @@ export default function MainFooter() {
             how our expertise can help your business grow.
           </p>
         </div>
-
-        <Button $type="1">Get in touch</Button>
+        <Link
+          href="/about"
+          className="px-6 py-4 text-[0.9375rem] tracking-[0.0625rem] uppercase font-medium text-DarkGrey hover:text-White  bg-White hover:bg-LightPeach rounded-lg"
+        >
+          Get in touch
+        </Link>
       </div>
     </footer>
   );
