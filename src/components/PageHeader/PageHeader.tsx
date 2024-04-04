@@ -62,7 +62,10 @@ export default function Header() {
   }
   return (
     <header className="w-full lg:max-w-[1111px] lg:mx-auto flex justify-between px-6 py-8 md:px-10 md:py-[64px] lg:px-0 bg-White">
-      <Image src={logoDarkIcon} alt="Designo logo" width={202}></Image>
+      <Link href="/">
+        <Image src={logoDarkIcon} alt="Designo logo" width={202}></Image>
+      </Link>
+
       <nav className="hidden md:inline-block">
         <ul className="flex gap-[42px]">
           <li className="text-[0.875rem] text-DarkGray leading-1 tracking-[0.125rem] uppercase hover:underline">

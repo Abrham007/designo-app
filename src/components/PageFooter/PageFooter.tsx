@@ -5,31 +5,34 @@ import YoutubeIcon from "../UI/icons/YoutubeIcon";
 import TwitterIcon from "../UI/icons/TwitterIcon";
 import PinterestIcon from "../UI/icons/PinterestIcon";
 import InstagramIcon from "../UI/icons/InstagramIcon";
+import Link from "next/link";
 
 export default function Footer() {
   return (
     <footer className="bg-Black">
       <div className="w-full lg:max-w-[1111px] lg:mx-auto px-6 md:px-10 lg:px-0 py-[64px] md:py-20 lg:py-[72px] flex flex-col justify-center  gap-10 ">
         <div className="flex flex-col md:flex-row gap-8 md:justify-between md:items-center">
-          <Image
-            src={logoLightIcon}
-            alt="Designo logo"
-            width={202}
-            className="mx-auto md:mx-0"
-          ></Image>
+          <Link href="/">
+            <Image
+              src={logoLightIcon}
+              alt="Designo logo"
+              width={202}
+              className="mx-auto md:mx-0"
+            ></Image>
+          </Link>
 
           <hr className="h-[3px] w-full bg-White opacity-10 md:hidden"></hr>
 
           <nav>
             <ul className="flex flex-col md:flex-row gap-8 md:gap-[42px] items-center">
               <li className="text-[0.875rem] text-White leading-[0.875rem] tracking-[0.125rem] hover:underline">
-                OUR COMPANY
+                <Link href="/about">OUR COMPANY</Link>
               </li>
               <li className="text-[0.875rem] text-White leading-[0.875rem] tracking-[0.125rem] hover:underline">
-                LOCATIONS
+                <Link href="/location">LOCATIONS</Link>
               </li>
               <li className="text-[0.875rem] text-White leading-[0.875rem] tracking-[0.125rem] hover:underline">
-                CONTACT
+                <Link href="/contact">CONTACT</Link>
               </li>
             </ul>
           </nav>
