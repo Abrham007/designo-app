@@ -3,6 +3,7 @@ import { Jost } from "next/font/google";
 import "./globals.css";
 import PageHeader from "@/components/PageHeader/PageHeader";
 import PageFooter from "@/components/PageFooter/PageFooter";
+import { GoogleTagManager } from "@next/third-parties/google";
 
 const jost = Jost({
   subsets: ["latin"],
@@ -27,6 +28,7 @@ export default function RootLayout({
         <PageHeader></PageHeader>
         {children}
         <PageFooter></PageFooter>
+        <GoogleTagManager gtmId="GTM-MCRX3VVV" />
       </body>
     </html>
   );
