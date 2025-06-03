@@ -46,8 +46,8 @@ export default function Location() {
           }}
           contact={{ phone: "078 3115 1400", email: "contact@designo.uk" }}
           images={{
-            desktop: "/images/locations/desktop/image-map-uk.png",
-            tablet: "/images/locations/tablet/image-map-uk.png",
+            desktop: "/images/locations/desktop/image-map-united-kingdom.png",
+            tablet: "/images/locations/tablet/image-map-united-kingdom.png",
           }}
         ></LocationElement>
       </ul>
